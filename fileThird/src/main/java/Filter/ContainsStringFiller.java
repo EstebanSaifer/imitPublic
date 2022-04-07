@@ -17,7 +17,6 @@ public class ContainsStringFiller implements Filter{
 
     @Override
     public boolean apply(String str) {
-        if(str.indexOf(pattern) < 0) return false;
-        else return true;
+        return str.contains(pattern);
     }
 }

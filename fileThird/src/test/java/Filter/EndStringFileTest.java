@@ -10,8 +10,13 @@ public class EndStringFileTest {
     public void apply () {
         String str = "Мама мыла раму";
         EndStringFile q1 = new EndStringFile("раму");
-        EndStringFile q2 = new EndStringFile("666");
         assertTrue(q1.apply(str));
-        assertTrue(q1.apply(str));
+    }
+
+    @Test (expected = AssertionError.class)
+    public void falseApply () throws AssertionError {
+        String str = "Мама мыла раму";
+        ContainsStringFiller q2 = new ContainsStringFiller("666");
+        assertTrue(q2.apply(str));
     }
 }

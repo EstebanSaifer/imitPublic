@@ -14,7 +14,7 @@ public class Packing {
         this.massOfPacking = massOfPacking;
     }
 
-    public String getName() {
+    public String getName1() {
         return name;
     }
 

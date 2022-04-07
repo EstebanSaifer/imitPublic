@@ -25,6 +25,11 @@ public class PackedWeightProduct extends WeightProduct implements NettoBrutto{
         return weight + packing.getMassOfPacking();
     }
 
+    @Override
+    public String nameOfProduct() {
+        return getName();
+    }
+
     public Packing getPacking() {
         return packing;
     }

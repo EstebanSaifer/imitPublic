@@ -14,7 +14,6 @@ public class PackedPieceProduct extends PeaceOfProduct implements NettoBrutto{
         this.packing = packing;
     }
 
-
     @Override
     public double netto() {
         return getWeightOfProduct();
@@ -23,6 +22,11 @@ public class PackedPieceProduct extends PeaceOfProduct implements NettoBrutto{
     @Override
     public double brutto() {
         return getWeightOfProduct() + packing.getMassOfPacking();
+    }
+
+    @Override
+    public String nameOfProduct() {
+        return getName();
     }
 
     public int getPiecesOfProduct () {

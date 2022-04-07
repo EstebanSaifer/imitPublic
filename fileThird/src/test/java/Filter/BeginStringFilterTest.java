@@ -10,8 +10,16 @@ public class BeginStringFilterTest {
     public void trueApply () {
         String str = "Мама мыла раму";
         BeginStringFilter q1 = new BeginStringFilter("Мама");
-        BeginStringFilter q2 = new BeginStringFilter("мыла");
+        //BeginStringFilter q2 = new BeginStringFilter("мыла");
         assertTrue(q1.apply(str));
+        //assertTrue(q2.apply(str));
+    }
+
+    @Test (expected = AssertionError.class)
+    public void falseApply () throws AssertionError {
+        String str = "Мама мыла раму";
+        BeginStringFilter q2 = new BeginStringFilter("мыла");
         assertTrue(q2.apply(str));
     }
+
 }

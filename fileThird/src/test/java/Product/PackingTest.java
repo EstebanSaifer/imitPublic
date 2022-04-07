@@ -1,7 +1,5 @@
 package Product;
 
-import Product.Packing;
-import Product.ProductException;
 import org.junit.Test;
 
 public class PackingTest {
