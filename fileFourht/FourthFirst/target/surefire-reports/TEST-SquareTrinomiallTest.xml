@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="Product.PeaceOfProductTest" time="0" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="SquareTrinomiallTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-86"/>
     <property name="sun.boot.library.path" value="/Users/elinasihmirzaeva/Library/Java/JavaVirtualMachines/openjdk-17.0.2/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/elinasihmirzaeva/IdeaProjects/ThirdFile"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/elinasihmirzaeva/IdeaProjects/FourthFirst"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/elinasihmirzaeva/IdeaProjects/ThirdFile"/>
+    <property name="user.dir" value="/Users/elinasihmirzaeva/IdeaProjects/FourthFirst"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="17.0.2+8-86"/>
     <property name="os.arch" value="x86_64"/>
@@ -59,6 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Product.PeaceOfProductTest" name="exceptionNullName" time="0"/>
-  <testcase classname="Product.PeaceOfProductTest" name="exceptionNullDescription" time="0"/>
+  <testcase classname="SquareTrinomiallTest" name="SquareTest0" time="0.004"/>
+  <testcase classname="SquareTrinomiallTest" name="SquareTest1" time="0.001"/>
+  <testcase classname="SquareTrinomiallTest" name="SquareTest2" time="0.001"/>
 </testsuite>
